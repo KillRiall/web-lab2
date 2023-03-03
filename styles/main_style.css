@@ -69,16 +69,15 @@ a.nav-link:hover{
     font-size: 20px;
     color: #e7e7e7;
 }
-.col{
-    padding: 2%;
+.card{
     text-align:justify;
 }
 @media screen and (min-width: 800px)
 {
-    .col h5{
+    .card h5{
         font-size: 18px;
     }
-    .col p{
+    .card p{
         font-size: 14px;
     }
     p.time{
@@ -87,44 +86,39 @@ a.nav-link:hover{
 }
 @media screen and (max-width: 800px)
 {
-    .col h5{
+    .card h5{
         font-size: 16px;
     }
-    .col p{
+    .card p{
         font-size: 12px;
     }
     p.time{
         font-size: 10px;
     }
 }
-.col img{
-    max-width: 100%;
+.card img{
+    max-width: 96%;
     display:block;
     border-radius: 10px;
+    margin:2%;
 }
-.col a{
+.card a{
     margin-top: 10px;
-    display: inline-block;
     vertical-align: top;
     padding: 8px 8px;
     border: 1px solid #412c32;
     border-radius: 10px;
     text-decoration: none;
-    color:#e4d7db;
     font-size: 14px;
     background: #7e1535;
     margin-top: 10px;
 }
-.col h5{
+.card h5{
     margin:0px;
     margin-top: 12px;
 }
-.col p{
+.card p{
     margin-bottom: 0px;
-}
-p.time{
-    color:grey;
-    margin-bottom: 30px;
 }
 .contacts{
     color: #e7e7e7ee;
